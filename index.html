@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/right-menu.css">
+  <link rel="stylesheet" href="styles/info-sidebar.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Portfolio</title>
+</head>
+<body id="body">
+  <header>
+    <div class="header" id="header">
+      <img id="openInfo" src="images/info-sidebar/avatar.jpg">
+      <div class="header-right-menu">
+        <i id="colorBtn2" class="fa-solid fa-fill-drip colorBtn2"></i>
+        <i id="menuBar" class="fa-solid fa-bars"></i>
+      </div>
+      <div class="header-info-sidebar">
+        <div class="user-info">
+          <div class="user-info-avatar">
+            <img src="images/info-sidebar/avatar.jpg">
+            <div></div>
+          </div>
+          <div class="user-info-name">
+            <h3>Arian Cotîrlici</h3>
+            <p>Web Developer</p>
+          </div>
+          <div class="user-info-socialmedia">
+            <a href="http://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://linked.in"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="http://soundcloud.com"><i class="fa-brands fa-soundcloud"></i></a>
+          </div>
+        </div>
+        <div class="info">
+          <div class="item">
+            <p>Email:</p>
+            <p>cotirlici_arian@yahoo.com</p>
+          </div>
+          <div class="item">
+            <p>Phone:</p>
+            <p>+40756409009</p>
+          </div>
+          <div class="item">
+            <p>Residance:</p>
+            <p>Romania</p>
+          </div>
+          <div class="item">
+            <p>City:</p>
+            <p>Iasi</p>
+          </div>
+          <div class="item">
+            <p>Age:</p>
+            <p>24 Years</p>
+          </div>
+          <div class="item">
+            <p>Freelance:</p>
+            <p>Available</p>
+          </div>
+          <div class="item">
+            <p>Language:</p>
+            <p>Romanian, English</p>
+          </div>
+        </div>
+        <hr>
+        <div class="major-skill">
+          <h2>Major Skill</h2>
+          <div class="content">
+            <div class="content-item">
+              <div class="content-item-heading">
+                <p>HTML</p>
+                <p>90%</p>
+              </div>
+              <div class="content-item-range range-1"></div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-heading ">
+                <p>CSS</p>
+                <p>80%</p>
+              </div>
+              <div class="content-item-range range-2"></div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-heading">
+                <p>JAVASCRIPT</p>
+                <p>20%</p>
+              </div>
+              <div class="content-item-range range-3"></div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-heading">
+                <p>UI DESIGN</p>
+                <p>50%</p>
+              </div>
+              <div class="content-item-range range-4"></div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-heading">
+                <p>PHOTOSHOP</p>
+                <p>70%</p>
+              </div>
+              <div class="content-item-range range-5"></div>
+            </div>
+            <div class="content-item">
+              <div class="content-item-heading">
+                <p>ILLUSTRATOR</p>
+                <p>40%</p>
+              </div>
+              <div class="content-item-range range-6"></div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="extra-skill">
+          <h2>Extra Skill</h2>
+          <div class="extra-skill-content-container">
+            <div class="extra-skill-content">
+              <p>GIT Knowledge</p>
+              <p>Teamwork</p>
+            </div>
+            <div class="extra-skill-content">
+              <p>GTD</p>
+              <P>Agile</P>
+            </div>
+            <div class="extra-skill-content">
+              <P>Music Production</P>
+              <p>Video Editing</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <button id="cvBtn">Download My CV <i class="fa-solid fa-cloud-arrow-down"></i></button>
+      </div>
+      <div class="header-nav">
+        <a href="#header" class="item-home" >
+          <div>Home</div>
+          <i class="fa-solid fa-house tab active-tab" id="home"></i>
+        </a>
+        <a href="#education-section" class="item-education">
+          <div>Education</div>
+          <i class="fa-solid fa-user-graduate tab" id="education" ></i>
+        </a>
+        <a href="#experiance-section" class="item-experiance">
+          <div>Experience</div>
+          <i class="fa-solid fa-briefcase tab" id="experience"></i>
+        </a>
+        <a href="#work-section" class="item-work">
+          <div>My work</div>
+          <i class="fa-solid fa-file-lines tab" id="work"></i>
+        </a>
+        <a href="#contact-section" class="item-contact">
+          <div>Contact me</div>
+          <i class="fa-solid fa-comment-dots tab" id="contact"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <aside>
+    <div class="info-sidebar">
+      <div class="user-info">
+        <div class="user-info-avatar">
+          <img src="images/info-sidebar/avatar.jpg">
+          <div></div>
+        </div>
+        <div class="user-info-name">
+          <h3>Arian Cotîrlici</h3>
+          <p>Web Developer - Entry Level</p>
+        </div>
+        <div class="user-info-socialmedia">
+          <a href="http://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="http://linked.in"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="http://soundcloud.com"><i class="fa-brands fa-soundcloud"></i></a>
+        </div>
+      </div>
+      <div class="info">
+        <div class="item">
+          <p>Email:</p>
+          <a href="mailto:cotirlici_arian@yahoo.com">cotirlici_arian@yahoo.com</a>
+        </div>
+        <div class="item">
+          <p>Phone:</p>
+          <a href="tel:+40765409009">+40765409009</a>
+        </div>
+        <div class="item">
+          <p>Residance:</p>
+          <p>Romania</p>
+        </div>
+        <div class="item">
+          <p>City:</p>
+          <p>Iasi</p>
+        </div>
+        <div class="item">
+          <p>Age:</p>
+          <p>24 Years</p>
+        </div>
+        <div class="item">
+          <p>Freelance:</p>
+          <p>Available</p>
+        </div>
+        <div class="item">
+          <p>Language:</p>
+          <p>Romanian, English</p>
+        </div>
+      </div>
+      <hr>
+      <div class="major-skill">
+        <h2>Major Skill</h2>
+        <div class="content">
+          <div class="content-item">
+            <div class="content-item-heading">
+              <p>HTML</p>
+              <p>90%</p>
+            </div>
+            <div class="content-item-range range-1"></div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-heading ">
+              <p>CSS</p>
+              <p>75%</p>
+            </div>
+            <div class="content-item-range range-2"></div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-heading">
+              <p>JAVASCRIPT</p>
+              <p>20%</p>
+            </div>
+            <div class="content-item-range range-3"></div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-heading">
+              <p>UI/UX DESIGN</p>
+              <p>40%</p>
+            </div>
+            <div class="content-item-range range-4"></div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-heading">
+              <p>PHOTOSHOP</p>
+              <p>60%</p>
+            </div>
+            <div class="content-item-range range-5"></div>
+          </div>
+          <div class="content-item">
+            <div class="content-item-heading">
+              <p>ILLUSTRATOR</p>
+              <p>30%</p>
+            </div>
+            <div class="content-item-range range-6"></div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="extra-skill">
+        <h2>Extra Skill</h2>
+        <div class="extra-skill-content-container">
+          <div class="extra-skill-content">
+            <p>SAGA C</p>
+            <p>Microsoft Office</p>
+          </div>
+          <div class="extra-skill-content">
+            <p>GTD</p>
+            <P>Agile</P>
+            <p>Teamwork</p>
+          </div>
+          <div class="extra-skill-content">
+            <P>Ableton Live</P>
+            <p>Adobe After Effects</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <button id="cvBtn">Download My CV <i class="fa-solid fa-cloud-arrow-down"></i></button>
+    </div>
+  </aside>
+  <main>
+    <div class="main-header section" id="home-section">
+      <div class="main-header-content">
+        <h1>Hi, I'm Arian <br>Nice to meet you</h1>
+        <p>I am currently a student at the Faculty of Economics and Business Administration, from Iași, majoring in Accounting and Management Informatics. </p>
+        <a href="#contact-section"><button id="buttonTalk"><span id="buttonTalkTxt">Let's Talk</span> <i class="fa-solid fa-arrow-right"></i></button></a>
+      </div>
+    </div>
+    <div class="education section" id="education-section">
+      <h2>Education</h2>
+      <div class="education-content">
+        <div class="education-content-box">
+          <div class="institution">
+            <h3>University "Alexandru Ioan Cuza" IASI</h3>
+            <p>Student <span>Oct. 2021 - Iun. 2024</span></p>
+          </div>
+          <div class="education-info">
+            <h3>Accounting and Economic Informatics</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+          </div>
+        </div>
+        <hr>
+        <!-- <div class="education-content-box">
+          <div class="institution">
+            <h3>University "Alexandru Ioan Cuza" IASI</h3>
+            <p>Student <span>Oct. 2021 - Iun. 2024</span></p>
+          </div>
+          <div class="education-info">
+            <h3>Certificate of web training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="education-content-box">
+          <div class="institution">
+            <h3>University "Alexandru Ioan Cuza" IASI</h3>
+            <p>Student <span>Oct. 2021 - Iun. 2024</span></p>
+          </div>
+          <div class="education-info">
+            <h3>Certificate of web training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="experiance section" id="experiance-section">
+      <h2>Experience</h2>
+      <div class="experiance-content">
+        <div class="experiance-content-box">
+          <div class="institution">
+            <h3>Centric Express </h3>
+            <p><span>March 2023</span></p>
+          </div>
+          <div class="experiance-info">
+            <h3>Session 3 - UI/UX Design</h3>
+            <p>Participating in the 10-hour course at Centric Express in UI/UX design was an intense and captivating experience. I worked in a team to address practical themes, exploring design concepts and implementing interactive solutions. Throughout the course, I developed essential UI/UX design skills, gained an understanding of the creative process, and directly experienced efficient collaboration in a team environment. It was a valuable opportunity to apply theory in practice and learn through active engagement.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="experiance-content-box">
+          <div class="institution">
+            <h3>GOIT Academy <br>Marathon</h3>
+            <p><span>Iul. 2023</span></p>
+          </div>
+          <div class="experiance-info">
+            <h3>Certificate of GOIT English HTML</h3>
+            <p>Participating in the GOIT front-end marathon was a captivating journey into the world of web development. With daily themes and strict deadlines, I was challenged to quickly apply my knowledge in HTML, CSS, and JavaScript. The mentor team was an essential support, providing guidance and feedback, and I had the opportunity to develop practical skills and experiment with various front-end technologies. The experience not only strengthened technical knowledge but also enhanced time management and collaboration skills in a dynamic and challenging environment.</p>
+          </div>
+        </div>
+        <hr>
+        <!-- <div class="experiance-content-box">
+          <div class="institution">
+            <h3>University "Alexandru Ioan Cuza" IASI</h3>
+            <p><span>Oct. 2021 - Iun. 2024</span></p>
+          </div>
+          <div class="experiance-info">
+            <h3>Certificate of web training</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <div class="portfolio section" id="work-section">
+      <h2>Portfolio</h2>
+      <div class="portfolio-options">
+        <li class="active" id="allCateg">All categories</li>
+        <li id="webCateg">Websites</li>
+        <li id="logoCateg">Logos</li>
+        <li id="postersCateg">Posters</li>
+      </div>
+      <div class="portfolio-cards">
+        <div class="card web"><a href="https://inovatechweb.netlify.app/" target="_blank"><img src="images/my-work/inovatech.png"></a></div>
+        <div class="card web"><a href="https://webstudio00.netlify.app/" target="_blank"><img src="images/my-work/web-studio.png"></div></a>
+        <div class="card web"><a href="https://bistrobliss1.netlify.app/" target="_blank"><img src="images/my-work/bistrobliss.png"></div></a>
+        <div class="card web"><a href="https://arianc-portfolio.netlify.app/" target="_blank"><img src="images/my-work/portfolio1.png"></div></a>
+        <div class="card poster"><img src="images/my-work/afis1.jpg"></div>
+        <div class="card poster"><img src="images/my-work/afis2.jpg"></div>
+        <div class="card poster"><img src="images/my-work/afis3.jpg"></div>
+        <div class="card poster"><img src="images/my-work/afis4.jpg"></div>
+        <div class="card logo"><img src="images/my-work/logo1.png"></div>
+        <div class="card logo"><img src="images/my-work/logo22.png"></div>
+      </div>
+    </div>
+    <div class="contact section" id="contact-section">
+      <h2>Get In Touch</h2>
+      <div class="contact-content">
+        <div class="form-content">
+          <h3>Leave a Message</h3>
+          <form netlify>
+            <div class="row-1">
+              <div class="label">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="label">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+            <div class="row-2">
+              <div class="label">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+            </div>
+            <div class="row-2">
+              <div class="label">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+            </div>
+            <button type="submit"><span>Send Message</span><i class="fa-solid fa-paper-plane"></i></button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <div class="card">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <div class="card-info">
+              <div class="card-info-row">
+                <p>County:</p>
+                <span>Romania</span>
+              </div>
+              <div class="card-info-row">
+                <p>City:</p>
+                <span>Iasi</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-envelope"></i>
+            <div class="card-info">
+              <div class="card-info-row">
+                <p>Email:</p>
+                <a href="mailto:cotirlici_arian@yahoo.com">cotirlici_arian@yahoo.com</a>
+              </div>
+              <div class="card-info-row">
+                <p>Telegram:</p>
+                <span>@arian003b</span>
+              </div>
+              <div class="card-info-row">
+                <p>Discord:</p>
+                <span>@arian03</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">© 2023 Arian. All Rights Reserved.</div>
+  </main>
+  <nav>
+    <div class="right-menu">
+      <i id="colorBtn" class="fa-solid fa-fill-drip colorBtn"></i>
+      <div class="navigation">
+        <a href="#home-section" class="item-home" >
+          <div class="tooltip">Home</div>
+          <i class="fa-solid fa-house tab active-tab" id="home"></i>
+        </a>
+        <a href="#education-section" class="item-education">
+          <div class="tooltip">Education</div>
+          <i class="fa-solid fa-user-graduate tab" id="education" ></i>
+        </a>
+        <a href="#experiance-section" class="item-experiance">
+          <div class="tooltip">Experience</div>
+          <i class="fa-solid fa-briefcase tab" id="experience"></i>
+        </a>
+        <a href="#work-section" class="item-work">
+          <div class="tooltip">My work</div>
+          <i class="fa-solid fa-file-lines tab" id="work"></i>
+        </a>
+        <a href="#contact-section" class="item-contact">
+          <div class="tooltip">Contact me</div>
+          <i class="fa-solid fa-comment-dots tab" id="contact"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+</body>
+<script>
+  // color btn 1
+
+  let colorBtn = document.querySelector('.colorBtn');
+  let isPrimaryDark = true;
+
+  colorBtn.addEventListener('click', function() {
+    const newColorPrimery = isPrimaryDark ? '#e6e6e6' : '#131313';
+    const newColorPrimeryBase = isPrimaryDark ? '#fff' : '#1c1c1c';
+    const newColorBase = isPrimaryDark ? '#131313' : '#fff';
+    const backgroundMain = document.getElementById('home-section');
+
+    document.documentElement.style.setProperty('--primary', newColorPrimery);
+    document.documentElement.style.setProperty('--primary-base-100', newColorPrimeryBase);
+    document.documentElement.style.setProperty('--base', newColorBase);
+    
+    let isBackgroundMain = backgroundMain.classList.contains('main-header');
+
+    if (isBackgroundMain) {
+      backgroundMain.classList.remove('main-header')
+      backgroundMain.classList.add('main-header-white')
+    } else {
+      backgroundMain.classList.remove('main-header-white')
+      backgroundMain.classList.add('main-header')
+    };
+    
+    isPrimaryDark = !isPrimaryDark;
+  });
+  
+  // color btn 2
+
+  const colorBtn2 = document.querySelector('.colorBtn2');
+  let isPrimaryDark2 = true;
+
+  colorBtn2.addEventListener('click', function() {
+    const newColorPrimery = isPrimaryDark ? '#e6e6e6' : '#131313';
+    const newColorPrimeryBase = isPrimaryDark ? '#fff' : '#1c1c1c';
+    const newColorBase = isPrimaryDark ? '#131313' : '#fff';
+    const backgroundMain = document.getElementById('home-section');
+
+    document.documentElement.style.setProperty('--primary', newColorPrimery);
+    document.documentElement.style.setProperty('--primary-base-100', newColorPrimeryBase);
+    document.documentElement.style.setProperty('--base', newColorBase);
+    
+    let isBackgroundMain = backgroundMain.classList.contains('main-header');
+
+    if (isBackgroundMain) {
+      backgroundMain.classList.remove('main-header')
+      backgroundMain.classList.add('main-header-white')
+    } else {
+      backgroundMain.classList.remove('main-header-white')
+      backgroundMain.classList.add('main-header')
+    };
+    
+    isPrimaryDark = !isPrimaryDark;
+  });
+
+  // Menu
+  const sections = document.querySelectorAll('.section');
+  const tabs = document.querySelectorAll('.tab');
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+      tabs.forEach(t => {
+        t.classList.remove('active-tab');
+      });
+      
+      tab.classList.add('active-tab');
+    });
+  });
+
+  // Header Info toggle
+  let openInfo = document.getElementById('openInfo');
+  let headerInfoSidebar = document.querySelector('.header-info-sidebar');
+
+  openInfo.onclick = function() {
+    let isOpenInfo = headerInfoSidebar.classList.contains('open')
+    
+    if (isOpenInfo) {
+      headerInfoSidebar.classList.remove('open')
+    } else {
+      headerInfoSidebar.classList.add('open')
+    }
+  };
+
+  // Nav toggle
+  let navToggleBtn = document.getElementById('menuBar');
+  let headerNav = document.querySelector('.header-nav');
+
+  navToggleBtn.onclick = function() {
+    let isOpenNav = headerNav.classList.contains('open');
+
+    if (isOpenNav) {
+      headerNav.classList.remove('open');
+      navToggleBtn.classList.replace('fa-xmark', 'fa-bars')
+    } else {
+      headerNav.classList.add('open');
+      navToggleBtn.classList.replace('fa-bars', 'fa-xmark')
+    }
+  };
+
+  // Work categ
+
+  let allCateg = document.getElementById('allCateg');
+  let webCateg = document.getElementById('webCateg');
+  let logoCateg = document.getElementById('logoCateg');
+  let postersCateg = document.getElementById('postersCateg');
+
+  let webCards = document.querySelectorAll('.web');
+  let posterCards = document.querySelectorAll('.poster');
+  let logoCards = document.querySelectorAll('.logo')
+
+  allCateg.onclick = function() {
+    allCateg.classList.toggle('active');
+    let allCategActive = allCateg.classList.contains('active');
+
+    if (allCategActive) {
+      webCateg.classList.remove('active');
+      logoCateg.classList.remove('active');
+      postersCateg.classList.remove('active');
+    } else {
+      allCateg.classList.add('active')
+    };
+
+    webCards.forEach(Element => {
+      Element.style.display = 'block'
+    });
+    logoCards.forEach(Element => {
+      Element.style.display = 'block'
+    });
+    posterCards.forEach(Element => {
+      Element.style.display = 'block'
+    });
+  };
+
+  webCateg.onclick = function() {
+    webCateg.classList.toggle('active');
+    let webCategActive = webCateg.classList.contains('active');
+
+    if (webCategActive) {
+      allCateg.classList.remove('active');
+      logoCateg.classList.remove('active');
+      postersCateg.classList.remove('active');
+    } else {
+      webCateg.classList.add('active');
+    };
+
+    webCards.forEach(element => {
+      element.style.display = 'block'
+    });
+    logoCards.forEach(element => {
+      element.style.display = 'none'
+    });
+    posterCards.forEach(element => {
+      element.style.display = 'none'
+    });
+  };
+
+  logoCateg.onclick = function() {
+    logoCateg.classList.toggle('active')
+    let logoCategActive = logoCateg.classList.contains('active')
+
+    if (logoCategActive) {
+      allCateg.classList.remove('active');
+      webCateg.classList.remove('active');
+      postersCateg.classList.remove('active');
+    } else {
+      logoCateg.classList.add('active')
+    };
+
+    webCards.forEach(element => {
+      element.style.display = 'none'
+    });
+    logoCards.forEach(element => {
+      element.style.display = 'block'
+    });
+    posterCards.forEach(element => {
+      element.style.display = 'none'
+    });
+  };
+
+  postersCateg.onclick = function() {
+    postersCateg.classList.toggle('active')
+    let posterCategActive = postersCateg.classList.contains('active')
+
+    if (posterCategActive) {
+      allCateg.classList.remove('active');
+      webCateg.classList.remove('active');
+      logoCateg.classList.remove('active');
+    } else {
+      postersCateg.classList.add('active')
+    };
+
+    webCards.forEach(element => {
+      element.style.display = 'none'
+    });
+    logoCards.forEach(element => {
+      element.style.display = 'none'
+    });
+    posterCards.forEach(element => {
+      element.style.display = 'block'
+    });
+  };
+</script>
+</html>

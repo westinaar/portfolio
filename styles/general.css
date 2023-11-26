@@ -1,0 +1,155 @@
+:root {
+  --primary: #131313;
+  --primary-base-100: #1C1C1C;
+  --base: #fff;
+  --secondary: #ff7f1c;
+  --secondary-base10: #ff7f1c1A;
+  --secondary-base80: #ff7f1cCC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--primary-base-100);
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: var(--primary);
+  height: 10px;
+}
+
+body {
+  background-color: var(--primary);
+  padding: 32px 224px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  font-family: 'Nunito', sans-serif;
+  color: var(--base);
+  cursor: default;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+@media(max-width: 1536px) {
+  body {
+    padding: 32px;
+  }
+}
+
+@media(max-width: 960px) {
+  body {
+    padding: 32px 150px;
+    flex-direction: column;
+  }
+  aside {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+  body {
+    gap: 96px;
+  }
+
+  main .main-header {
+    padding: 40px;
+    background-position: left;
+  }
+  main .main-header-white {
+    padding: 40px;
+    background-position: left;
+  }
+  main .main-header-content {
+    gap: 40px;
+  }
+  main .main-header-content h1 {
+    font-size: 40px;
+  }
+  main .main-header-content p {
+    font-size: 16px;
+  }
+  body header {
+    display: flex;
+  } 
+}
+
+@media(max-width: 704px) {
+  body {
+    padding: 32px;
+    flex-direction: column;
+  }
+  main {
+    gap: 96px;
+  }
+}
+
+@media(max-width: 540px) {
+  body {
+    gap: 64px;
+  }
+  main .main-header {
+    width: 360px;
+    background-image: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  main .main-header-white {
+    width: 360px;
+    background-image: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  main .main-header-content {
+    align-items: center;
+  }
+
+  main .main-header-content p {
+    inline-size: 300px;
+  }
+  header .header {
+    width: 400px;
+  }
+}
+
+@media(max-width: 430px) {
+  body {
+    gap: 64px;
+  }
+  main .main-header {
+    width: 240px;
+    
+  }
+  main .main-header-white {
+    width: 240px;
+    
+  }
+  main .main-header-content h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  main .main-header-content p {
+    inline-size: 200px;
+    font-size: 14px;
+  }
+  header .header {
+    width: 280px;
+  }
+}

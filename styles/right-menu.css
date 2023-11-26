@@ -1,0 +1,89 @@
+nav {
+  position: sticky;
+  top: 32px;
+  align-self: flex-start;
+}
+
+.right-menu {
+  display: flex;
+  flex-direction: column;
+  height: 1016px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 12px;
+  background-color: var(--primary-base-100);
+}
+
+
+.right-menu .colorBtn  {
+  background-color: transparent;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--secondary);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  flex: 1 0 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.navigation .item-home i, .navigation .item-education i, .navigation .item-experiance i,
+.navigation .item-work i, .navigation .item-contact i {
+  font-size: 24px;
+  padding: 12px;
+  color: var(--base);
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.navigation a .active-tab {
+  background-color: var(--secondary);
+  opacity: 1;
+  border-radius: 8px;
+  color: var(--primary);
+}
+
+.navigation .item-home, .navigation .item-education, .navigation .item-experiance, 
+.navigation .item-work, .navigation .item-contact {
+  position: relative;
+  display: flex;
+  justify-content: center;
+} 
+
+.navigation .item-home .tooltip, .navigation .item-education .tooltip, 
+.navigation .item-experiance .tooltip, .navigation .item-work .tooltip, 
+.navigation .item-contact .tooltip {
+  position: absolute;
+  background-color: var(--primary);
+  color: var(--base);
+  padding: 4px 8px;
+  position: absolute;
+  top: -24px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  align-self: stretch;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border-radius: 6px;
+}
+
+.navigation a:hover .tooltip{
+  opacity: 1;
+}
+
+
