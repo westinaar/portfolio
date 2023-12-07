@@ -247,7 +247,7 @@ aside {
 }
 @keyframes growleft2 {
   0% { width: 0%; }
-  100% { width: 80%;}
+  100% { width: 75%;}
 }
 @keyframes growleft3 {
   0% { width: 0%; }
@@ -255,15 +255,15 @@ aside {
 }
 @keyframes growleft4 {
   0% { width: 0%; }
-  100% { width: 50%;}
+  100% { width: 40%;}
 }
 @keyframes growleft5 {
   0% { width: 0%; }
-  100% { width: 70%;}
+  100% { width: 60%;}
 }
 @keyframes growleft6 {
   0% { width: 0%; }
-  100% { width: 40%;}
+  100% { width: 30%;}
 }
 
 /* Extra skill */
