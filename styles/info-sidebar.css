@@ -314,13 +314,13 @@ aside {
   border: none;
   border-radius: 8px;
   text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
+  text-decoration: none;
   line-height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #131313;
+  font-weight: 600;
   gap: 20px;
   border: 2px solid var(--secondary);
   cursor: pointer;
